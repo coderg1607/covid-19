@@ -1,0 +1,44 @@
+.container
+{
+    margin:50px 0;
+}
+.card
+{
+  margin:0 2%  !important;
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+    
+}
+.recoverded{
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+.deaths{
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+.infected:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 5px solid rgba(0,0,255,0.6);
+  }
+  .recoverded:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 5px solid rgba(0,255,0,0.6);
+  }
+  .deaths:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 5px solid rgba(255,0,0,0.6);
+  }   
+  @media(max-width:770px)
+  {
+    .card
+    {
+      margin: 2% 0 !important;
+    }
+  }
